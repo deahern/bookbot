@@ -1,5 +1,5 @@
 def main():
-    book_path = "books/frankenstein.txt"
+    book_path = "books/frankenstein.txt" #create .txt file that contains all the text in your book and set it to the variable book_path
     text = get_book_text(book_path)
     #print(text)
     num_words = count_words(text)
